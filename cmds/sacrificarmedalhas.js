@@ -52,7 +52,8 @@ try{
         })
         let rr = message.guild.roles.find(val => val.name == af[0]);
         message.member.removeRole(rr);
-        fo.forEach(function(entry) {
+        let fo2 = fo.slice(0, nnn)
+        fo2.forEach(function(entry) {
             let r = message.guild.roles.find(val => val.name == entry);
             message.member.removeRole(r.id);
         });
