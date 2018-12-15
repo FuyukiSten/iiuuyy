@@ -38,7 +38,7 @@ client.on('guildMemberAdd', member => {
 });
 
 client.on('guildMemberRemove', () => {
-    client.user.setActivity(`${client.guilds.get('489929853362241566').memberCount} membros.`, {type:'LISTENING'});
+    client.user.setActivity(`${client.guilds.get('402215846707068930').memberCount} membros.`, {type:'LISTENING'});
 });
 
 let prefix = 'c!';
